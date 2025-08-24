@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(135deg, #2196F3, #21CBF3);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color: yellow;
+}
+
+.projects-section {
+  flex: 1;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #E3F2FD, #F9F9F9);
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2196F3;
+}
+
+.projects-list {
+  list-style: decimal inside;
+  font-size: 22px;
+  text-align: left;
+  display: inline-block;
+}
+
+.projects-list li {
+  margin: 15px 0;
+}
+
+.projects-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.projects-list a:hover {
+  color: #2196F3;
+}
+
+footer {
+  background: #2196F3;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
